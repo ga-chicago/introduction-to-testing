@@ -1,0 +1,78 @@
+Bryon Nicoson
+
+App: Amtrak 
+
+FEATURE NUMBER ONE: BUY TICKETS / SCHEDULES
+
+1.1 - User can select "Buy Tickets / Schedule" from main menu
+
+User opens app to main activity, in which user clicks on "Buy Tickets / Schedules" which opens new "Search For Trips" activity.
+
+
+1.2 - User can select one-way, round-trip, or multi-ride trips
+
+User can click on tabs at top of "Search for Trips" view to alter "SfT" view to accommodate either one-way, round-trip, or multi-ride trip search.
+
+1.3 - User can select an origin/destination city via multiple methods
+
+When user clicks on origin/destination city, three tabbed methods (My Stations | City | State/Province) tabs are presented and Map and Search icons are presented in the menu bar.
+
+1.4 - User can select origin/destination by using Map feature
+
+Clicking on Map icon opens Map with pins indicating Amtrak station closest to user location as determined via GPS.
+
+1.5 - User can select origin/destination by using Search feature
+
+Clicking on Search icon opens edittext field for user to type in city name
+
+1.6 - User can select origin/destination from stored list of previously selected origin/destination stations.
+
+Selecting "My Stations" brings up list of recents, which can be clicked on to populate origin/destination field for current trip.
+
+
+FEATURE NUMBER TWO: TRAIN STATUS
+
+1.1 User can check arrival status of train by train number
+
+Entering a station and a train number and clicking [Check Status] button provides user status of train indicating estimated arrival time and whether on time, x minutes late, or x minutes ahead of schedule
+
+1.2 User can check status of all trains from/to origin/destination
+
+Entering a origin and destination station and clicking [Check Status] provides a list of all future arrival trains indicating same as for individual train status check.
+
+1.3 User can do 1.1 for train departure status (toggle button)
+1.4 User can do 1.2 for all train departure statuses (toggle button)
+
+1.5 User can be notified of status via SMS
+
+Upon completion of ticket purchase, user can select to be notified via SMS
+
+1.6 User can be notified of status via email
+
+Upon completipon of ticket purchase, user can select to be notified via email.
+
+FEATURE THE THIRD: UPCOMING TRIPS
+
+1.1 User can view upcoming trips.
+
+Clicking on "Upcoming Trips" in main activity takes user to "UC" activity
+
+1.2 User can select trip detail from UC view
+
+Clicking on a leg of a trip shows detail for that leg
+
+1.3  User can view departure information
+
+When the detail view is presented, the scheduled origin and destination cities, departure and arrival times, and seat type are displayed (along with an "upgrade" button to encourage ticket upgrades)
+
+1.4 User can select Return tab from Detail view 
+
+Selecting return tab from detail view shows same info for return leg of trip.
+
+1.5 User can display eTicket by clicking [View eTicket]
+
+Clicking on [View eTicket] displays a QR Code ticket which can be scanned by Amtrak employees.
+
+1.6 User can display payment information by clicking "Payment" tab
+
+Clicking on the "Payment" tab presents the price, abbr. card info (VISA ****nnnn), as well as links to Terms & Conditions and FAQs.
